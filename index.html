@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- FONT AWESOME -->
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+  crossorigin="anonymous"
+  />
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+
+  <div class="container">
+    <main>
+      <div>
+        <img src="images/logo.svg" alt="Logo Image" class="logo">
+        <h1 class="heading"><span>We are launching</span> soon!</h1>
+        <p class="subscribe">Subscribe and get notified</p>
+        <form action="#" class="email-container" method="post">
+          <div class="email">
+            <input type="email" name="email" id="email" placeholder="Your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" value="">
+            <p id="message" class="valid-email">
+              Please provide a valid email address
+            </p>
+          </div>
+          <button type="submit" id="submit" value="">Notify Me</button>
+        </form>
+      </div>
+      <div class="container-image">
+        <img src="images/illustration-dashboard.png" alt="">
+      </div>
+      <div class="social-media">
+        <a href="#" aria-label="facebook-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="twitter-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="instagram-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+    </main>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
